@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
+import Header from './components/Header';
 import Item1 from './components/Item1';
 import Item2 from './components/Item2';
 import './App.css';
@@ -18,9 +19,12 @@ export default class extends Component {
 
   render() {
     return (
-            <HashRouter>
-                {(this.renderRoutes())}
-            </HashRouter>
+        <HashRouter>
+          <div className='App'>
+            <Header />
+              {(this.renderRoutes())}
+          </div>
+        </HashRouter>
         );
   }
 }
