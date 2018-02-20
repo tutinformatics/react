@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "information": "text from json",
+  "data": [{
+    "id": 1,
+    "title": "The Fellowship of the Ring",
+    "owner": "J.R. Tolkien"
+  }]
+}

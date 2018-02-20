@@ -2,6 +2,9 @@
 
 ## Changelog
 
+### 20/02
+* Add fetch to mount to show data
+
 ### 17/02
 * Add navbar and introduce bootstrap styling with react.
 * Add enzyme library for component testing and create tests for components.
